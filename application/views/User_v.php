@@ -94,12 +94,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 			<code>
 				<label for="">Soyisim</label>
-				<input type="text" name="soyad">
+				<input type="text" name="soyad" placeholder="Soyisim girin">
 			</code>
 
 			<code>
 				<label for="">email</label>
-				<input type="text" name="email">
+				<input type="text" name="email" placeholder="email girin">
+			</code>
+			<code>
+				<label for="">şifre</label>
+				<input type="password" name="password" placeholder="şifre girin">
+			</code>
+			<code>
+				<label for="">şifre tekrarı</label>
+				<input type="repassword" name="repassword" placeholder="şifre girin">
 			</code>
 			<input type="submit" value="Kullanıcıyı Kaydet">
 		</form>
